@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102F66931E8B944B00E32CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F66921E8B944B00E32CEC /* AppDelegate.swift */; };
+		102F66951E8B944B00E32CEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F66941E8B944B00E32CEC /* ViewController.swift */; };
+		102F66981E8B944B00E32CEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102F66961E8B944B00E32CEC /* Main.storyboard */; };
+		102F669A1E8B944B00E32CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102F66991E8B944B00E32CEC /* Assets.xcassets */; };
+		102F669D1E8B944B00E32CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 102F669B1E8B944B00E32CEC /* LaunchScreen.storyboard */; };
+		102F66A71E8BA2A200E32CEC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F66A61E8BA2A200E32CEC /* HomeViewController.swift */; };
+		102F66A91E8BD92300E32CEC /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F66A81E8BD92300E32CEC /* AlarmViewController.swift */; };
+		102F66AB1E8BE36F00E32CEC /* MedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F66AA1E8BE36F00E32CEC /* MedicineViewController.swift */; };
+		102F66AD1E8BE37D00E32CEC /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F66AC1E8BE37D00E32CEC /* UserViewController.swift */; };
+		102F66AF1E8BE39100E32CEC /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F66AE1E8BE39100E32CEC /* MoreViewController.swift */; };
+		102F66B11E8BEC3500E32CEC /* AddMedicineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102F66B01E8BEC3500E32CEC /* AddMedicineViewController.swift */; };
+		10315FB11E94607300DBC3AC /* JHProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10315FB01E94607300DBC3AC /* JHProgressHUD.swift */; };
+		10315FB31E946AD500DBC3AC /* MedicineDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10315FB21E946AD500DBC3AC /* MedicineDetailsViewController.swift */; };
+		10315FB51E9586FB00DBC3AC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10315FB41E9586FB00DBC3AC /* RegisterViewController.swift */; };
+		10315FB71E96E8F100DBC3AC /* AlarmNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10315FB61E96E8F100DBC3AC /* AlarmNotificationViewController.swift */; };
+		106024161E911F4A00209190 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 106024151E911F4A00209190 /* GoogleService-Info.plist */; };
+		1078E1581EA5639500F47835 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1078E1571EA5639500F47835 /* HomeCollectionViewCell.swift */; };
+		1092241C1E8C43B200A4CE9B /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1092241B1E8C43B200A4CE9B /* AddAlarmViewController.swift */; };
+		10957BBD1E92FC3E00CEE6FF /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10957BBB1E92FC3E00CEE6FF /* DataModel.xcdatamodeld */; };
+		10CFAF201EADDC980002D602 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CFAF1F1EADDC980002D602 /* UserNotifications.framework */; };
+		93E7AD90F4DD543802151567 /* Pods_TrackMyMeds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E668D002F24C94FAA277DA2 /* Pods_TrackMyMeds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		102F668F1E8B944B00E32CEC /* TrackMyMeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackMyMeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		102F66921E8B944B00E32CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		102F66941E8B944B00E32CEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		102F66971E8B944B00E32CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		102F66991E8B944B00E32CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		102F669C1E8B944B00E32CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		102F669E1E8B944B00E32CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		102F66A61E8BA2A200E32CEC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		102F66A81E8BD92300E32CEC /* AlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
+		102F66AA1E8BE36F00E32CEC /* MedicineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineViewController.swift; sourceTree = "<group>"; };
+		102F66AC1E8BE37D00E32CEC /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewController.swift; path = ../UserViewController.swift; sourceTree = "<group>"; };
+		102F66AE1E8BE39100E32CEC /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		102F66B01E8BEC3500E32CEC /* AddMedicineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMedicineViewController.swift; sourceTree = "<group>"; };
+		10315FB01E94607300DBC3AC /* JHProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHProgressHUD.swift; sourceTree = "<group>"; };
+		10315FB21E946AD500DBC3AC /* MedicineDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicineDetailsViewController.swift; sourceTree = "<group>"; };
+		10315FB41E9586FB00DBC3AC /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		10315FB61E96E8F100DBC3AC /* AlarmNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmNotificationViewController.swift; sourceTree = "<group>"; };
+		106024151E911F4A00209190 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		106024171E91216700209190 /* TrackMyMeds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackMyMeds-Bridging-Header.h"; sourceTree = "<group>"; };
+		1078E1571EA5639500F47835 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		1092241B1E8C43B200A4CE9B /* AddAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
+		10957BBC1E92FC3E00CEE6FF /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		10CFAF1F1EADDC980002D602 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		64F185049EFCF67ACA2DCDD3 /* Pods-TrackMyMeds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMyMeds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrackMyMeds/Pods-TrackMyMeds.debug.xcconfig"; sourceTree = "<group>"; };
+		71660163ED5EF93AB042695F /* Pods-TrackMyMeds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackMyMeds.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrackMyMeds/Pods-TrackMyMeds.release.xcconfig"; sourceTree = "<group>"; };
+		7E668D002F24C94FAA277DA2 /* Pods_TrackMyMeds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackMyMeds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		102F668C1E8B944B00E32CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CFAF201EADDC980002D602 /* UserNotifications.framework in Frameworks */,
+				93E7AD90F4DD543802151567 /* Pods_TrackMyMeds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102F66861E8B944B00E32CEC = {
+			isa = PBXGroup;
+			children = (
+				102F66911E8B944B00E32CEC /* TrackMyMeds */,
+				102F66901E8B944B00E32CEC /* Products */,
+				4C7055C7197B1C6D68D2780E /* Pods */,
+				BCFCD7C2346C23C0E06CF32B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		102F66901E8B944B00E32CEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				102F668F1E8B944B00E32CEC /* TrackMyMeds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		102F66911E8B944B00E32CEC /* TrackMyMeds */ = {
+			isa = PBXGroup;
+			children = (
+				1078E1571EA5639500F47835 /* HomeCollectionViewCell.swift */,
+				10315FB01E94607300DBC3AC /* JHProgressHUD.swift */,
+				102F66921E8B944B00E32CEC /* AppDelegate.swift */,
+				102F66941E8B944B00E32CEC /* ViewController.swift */,
+				102F66961E8B944B00E32CEC /* Main.storyboard */,
+				102F66991E8B944B00E32CEC /* Assets.xcassets */,
+				102F669B1E8B944B00E32CEC /* LaunchScreen.storyboard */,
+				102F669E1E8B944B00E32CEC /* Info.plist */,
+				102F66A61E8BA2A200E32CEC /* HomeViewController.swift */,
+				102F66A81E8BD92300E32CEC /* AlarmViewController.swift */,
+				102F66AA1E8BE36F00E32CEC /* MedicineViewController.swift */,
+				102F66AC1E8BE37D00E32CEC /* UserViewController.swift */,
+				102F66AE1E8BE39100E32CEC /* MoreViewController.swift */,
+				102F66B01E8BEC3500E32CEC /* AddMedicineViewController.swift */,
+				1092241B1E8C43B200A4CE9B /* AddAlarmViewController.swift */,
+				106024151E911F4A00209190 /* GoogleService-Info.plist */,
+				106024171E91216700209190 /* TrackMyMeds-Bridging-Header.h */,
+				10957BBB1E92FC3E00CEE6FF /* DataModel.xcdatamodeld */,
+				10315FB21E946AD500DBC3AC /* MedicineDetailsViewController.swift */,
+				10315FB41E9586FB00DBC3AC /* RegisterViewController.swift */,
+				10315FB61E96E8F100DBC3AC /* AlarmNotificationViewController.swift */,
+			);
+			path = TrackMyMeds;
+			sourceTree = "<group>";
+		};
+		4C7055C7197B1C6D68D2780E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64F185049EFCF67ACA2DCDD3 /* Pods-TrackMyMeds.debug.xcconfig */,
+				71660163ED5EF93AB042695F /* Pods-TrackMyMeds.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCFCD7C2346C23C0E06CF32B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10CFAF1F1EADDC980002D602 /* UserNotifications.framework */,
+				7E668D002F24C94FAA277DA2 /* Pods_TrackMyMeds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		102F668E1E8B944B00E32CEC /* TrackMyMeds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 102F66A11E8B944B00E32CEC /* Build configuration list for PBXNativeTarget "TrackMyMeds" */;
+			buildPhases = (
+				8F7C0AC3320FD245761D5602 /* [CP] Check Pods Manifest.lock */,
+				102F668B1E8B944B00E32CEC /* Sources */,
+				102F668C1E8B944B00E32CEC /* Frameworks */,
+				102F668D1E8B944B00E32CEC /* Resources */,
+				4407B6FBCDB4BD449EED5F1A /* [CP] Embed Pods Frameworks */,
+				DCA8D768F192D1F0F660DCB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackMyMeds;
+			productName = TrackMyMeds;
+			productReference = 102F668F1E8B944B00E32CEC /* TrackMyMeds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		102F66871E8B944B00E32CEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ibjects;
+				TargetAttributes = {
+					102F668E1E8B944B00E32CEC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZXEMRULYY4;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 102F668A1E8B944B00E32CEC /* Build configuration list for PBXProject "TrackMyMeds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 102F66861E8B944B00E32CEC;
+			productRefGroup = 102F66901E8B944B00E32CEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				102F668E1E8B944B00E32CEC /* TrackMyMeds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		102F668D1E8B944B00E32CEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102F669D1E8B944B00E32CEC /* LaunchScreen.storyboard in Resources */,
+				106024161E911F4A00209190 /* GoogleService-Info.plist in Resources */,
+				102F669A1E8B944B00E32CEC /* Assets.xcassets in Resources */,
+				102F66981E8B944B00E32CEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4407B6FBCDB4BD449EED5F1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackMyMeds/Pods-TrackMyMeds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F7C0AC3320FD245761D5602 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA8D768F192D1F0F660DCB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrackMyMeds/Pods-TrackMyMeds-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		102F668B1E8B944B00E32CEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102F66B11E8BEC3500E32CEC /* AddMedicineViewController.swift in Sources */,
+				10315FB31E946AD500DBC3AC /* MedicineDetailsViewController.swift in Sources */,
+				10957BBD1E92FC3E00CEE6FF /* DataModel.xcdatamodeld in Sources */,
+				102F66AF1E8BE39100E32CEC /* MoreViewController.swift in Sources */,
+				102F66A91E8BD92300E32CEC /* AlarmViewController.swift in Sources */,
+				1078E1581EA5639500F47835 /* HomeCollectionViewCell.swift in Sources */,
+				10315FB71E96E8F100DBC3AC /* AlarmNotificationViewController.swift in Sources */,
+				10315FB11E94607300DBC3AC /* JHProgressHUD.swift in Sources */,
+				1092241C1E8C43B200A4CE9B /* AddAlarmViewController.swift in Sources */,
+				102F66AD1E8BE37D00E32CEC /* UserViewController.swift in Sources */,
+				102F66951E8B944B00E32CEC /* ViewController.swift in Sources */,
+				102F66931E8B944B00E32CEC /* AppDelegate.swift in Sources */,
+				10315FB51E9586FB00DBC3AC /* RegisterViewController.swift in Sources */,
+				102F66AB1E8BE36F00E32CEC /* MedicineViewController.swift in Sources */,
+				102F66A71E8BA2A200E32CEC /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		102F66961E8B944B00E32CEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102F66971E8B944B00E32CEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		102F669B1E8B944B00E32CEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				102F669C1E8B944B00E32CEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		102F669F1E8B944B00E32CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		102F66A01E8B944B00E32CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		102F66A21E8B944B00E32CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64F185049EFCF67ACA2DCDD3 /* Pods-TrackMyMeds.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZXEMRULYY4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/GoogleSignIn/Frameworks,
+				);
+				INFOPLIST_FILE = TrackMyMeds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CWRU.TrackMyMeds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrackMyMeds/TrackMyMeds-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		102F66A31E8B944B00E32CEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71660163ED5EF93AB042695F /* Pods-TrackMyMeds.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZXEMRULYY4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					$PODS_CONFIGURATION_BUILD_DIR/GoogleSignIn/Frameworks,
+				);
+				INFOPLIST_FILE = TrackMyMeds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CWRU.TrackMyMeds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrackMyMeds/TrackMyMeds-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		102F668A1E8B944B00E32CEC /* Build configuration list for PBXProject "TrackMyMeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102F669F1E8B944B00E32CEC /* Debug */,
+				102F66A01E8B944B00E32CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		102F66A11E8B944B00E32CEC /* Build configuration list for PBXNativeTarget "TrackMyMeds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102F66A21E8B944B00E32CEC /* Debug */,
+				102F66A31E8B944B00E32CEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10957BBB1E92FC3E00CEE6FF /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10957BBC1E92FC3E00CEE6FF /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 10957BBC1E92FC3E00CEE6FF /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 102F66871E8B944B00E32CEC /* Project object */;
+}

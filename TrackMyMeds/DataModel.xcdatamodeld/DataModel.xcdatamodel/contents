@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16A323" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Alarm" representedClassName="Alarm" syncable="YES" codeGenerationType="class">
+        <attribute name="alarmDT" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="alarmTLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medicineName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="medicine" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Medicine" inverseName="alarm" inverseEntity="Medicine" syncable="YES"/>
+    </entity>
+    <entity name="Medicine" representedClassName="Medicine" syncable="YES" codeGenerationType="class">
+        <attribute name="appearImg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="brandName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorImg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastFeeling" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medDosage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="medName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noOfTimesTaken" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="alarm" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Alarm" inverseName="medicine" inverseEntity="Alarm" syncable="YES"/>
+        <relationship name="mlog" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MedLog" inverseName="medicine" inverseEntity="MedLog" syncable="YES"/>
+    </entity>
+    <entity name="MedLog" representedClassName="MedLog" syncable="YES" codeGenerationType="class">
+        <attribute name="dateAdded" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="mediName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="medicine" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Medicine" inverseName="mlog" inverseEntity="Medicine" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="doctorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doctorPhone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userAge" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userHeight" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userWeight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Alarm" positionX="216" positionY="-18" width="128" height="105"/>
+        <element name="Medicine" positionX="-63" positionY="-18" width="128" height="193"/>
+        <element name="MedLog" positionX="-306" positionY="2" width="128" height="103"/>
+        <element name="UserInfo" positionX="232" positionY="135" width="128" height="180"/>
+    </elements>
+</model>
